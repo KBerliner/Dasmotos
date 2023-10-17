@@ -1,0 +1,55 @@
+html, body {
+    margin: 0;
+}
+
+h1, h2, p {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.header {
+    background-image: url('./images/titlebg.jpeg');
+    height: 25vh;
+    color: rgba(240, 230, 140, 0.85);
+
+    font-size: 3.5vw;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+article > h2 {
+    color: white;
+    padding: 1%;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.brushes > h2 {
+    background-color: mediumspringgreen;
+}
+
+.frames > h2 {
+    background-color: lightcoral;
+}
+
+.paint > h2 {
+    background-color: skyblue;
+}
+
+.content {
+    display: flex;
+}
+
+img {
+    margin: 16px 2%;
+}
+
+.price {
+    color: blue;
+    font-weight: bold;
+}
